@@ -47,12 +47,12 @@ def rsaEncryptionAndDecryption(p,q,string):
     print(decryptedString)
 
     #decryptedString == originalText
-    #FIRST TIME PYTHON BTW EZ XD jk
+ 
     
     
-
+#input p and q here and the string
 p = 13
-q = 7
+q = 11
 string = 'ENCRYPTION'
 rsaEncryptionAndDecryption(p,q,string)
 
