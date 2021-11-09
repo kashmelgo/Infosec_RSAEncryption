@@ -53,7 +53,7 @@ def getNumber():
     return input("Input prime number: ")
 
 def getString():
-    return input("Input string: ")
+    return input("Input string (will be converted to uppercase letters): ")
 
 #input p and q here and the string
 p = int(getNumber())
