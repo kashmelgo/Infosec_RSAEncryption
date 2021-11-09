@@ -48,11 +48,16 @@ def rsaEncryptionAndDecryption(p,q,string):
 
     #decryptedString == originalText
  
-    
-    
-#input p and q here and the string
-p = 13
-q = 11
-string = 'ENCRYPTION'
-rsaEncryptionAndDecryption(p,q,string)
 
+def getNumber():
+    return input("Input prime number: ")
+
+def getString():
+    return input("Input string: ")
+
+#input p and q here and the string
+p = int(getNumber())
+q = int(getNumber())
+string = getString()
+
+rsaEncryptionAndDecryption(p,q,string)
